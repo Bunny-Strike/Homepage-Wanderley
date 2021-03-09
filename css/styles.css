@@ -1,9 +1,11 @@
+body {
+  background-color: #02010a;
+}
+
 header {
   height: 100vh;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  background-color: #02010a;
 }
 
 #header-section {
@@ -38,4 +40,15 @@ header {
   color: white;
   border-color: #22007c;
   background-color: #140152;
+}
+
+@media(max-width: 768px) {
+  .desc-text {
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .desc-text .btn {
+    margin: 7px 0;
+  }
 }
